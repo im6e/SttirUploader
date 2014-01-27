@@ -40,7 +40,9 @@
 {
     [self setupStatusItem];
 
-    [self setUpDirectoryObserver:@"/Users/amasho/Desktop/projects"];
+    // TODO: make it no HARD-coding
+    // [self setUpDirectoryObserver:@"/Users/amasho/Desktop/projects"];
+    [self setUpDirectoryObserver:@"/Users/a12192/Documents/Sttir"];
     [_directoryObserver startObserving];
 }
 

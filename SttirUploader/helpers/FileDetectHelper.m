@@ -25,7 +25,8 @@
     NSArray *allFileList = [[NSFileManager defaultManager] contentsOfDirectoryAtPath:path error:&error];
     for (NSString *fileName in allFileList) {
         if ([fileName hasSuffix:name]) {
-            [fileList addObject:fileName];
+            NSString *fullPath = [NSString stringWithFormat:@"%@%@", path, fileName];
+            [fileList addObject:fullPath];
         }
     }
     return fileList;

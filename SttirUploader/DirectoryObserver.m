@@ -72,17 +72,18 @@
 void fs_event_callback(ConstFSEventStreamRef streamRef, void *clientCallBackInfo, size_t numEvents,
                        void *eventPaths, const FSEventStreamEventFlags eventFlags[], const FSEventStreamEventId eventIds[])
 {
+    // TODO: char?
     char **paths = eventPaths;
     NSMutableArray *directories = [NSMutableArray array];
 
     ProjectUploader *_projectUploader = [[ProjectUploader alloc]init];
 
     for (int i = 0 ; i < numEvents ; i++) {
-        char *path = paths[i];
-        [_projectUploader callUploadAPI:[NSString stringWithUTF8String:path]];
-        [directories addObject:[NSString stringWithUTF8String:path]];
+        NSString *strPath = [NSString stringWithCString:paths[i] encoding:NSUTF8StringEncoding];
+        [_projectUploader callUploadAPI:strPath];
+        [directories addObject:strPath];
     }
-    
+
     DirectoryObserver *observer = (__bridge DirectoryObserver *)clientCallBackInfo;
     [observer onDirectoryChanged:directories];
 }
