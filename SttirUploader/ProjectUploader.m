@@ -8,9 +8,6 @@
 #import "ProjectUploader.h"
 #import "helpers/FileDetectHelper.h"
 #import "helpers/FileUploadHelper.h"
-#import <AFURLRequestSerialization.h>
-#import <AFURLSessionManager.h>
-#import <AFHTTPRequestOperationManager.h>
 
 @interface ProjectUploader()
 
