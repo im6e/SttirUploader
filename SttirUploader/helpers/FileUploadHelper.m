@@ -10,7 +10,7 @@
 
 @implementation FileUploadHelper
 
-// Upload の EndPoint
+// TODO: Upload の EndPoint
 NSString * const kUploadApi = @"http://172.19.201.32:3000/upload";
 
 

@@ -72,7 +72,6 @@
 void fs_event_callback(ConstFSEventStreamRef streamRef, void *clientCallBackInfo, size_t numEvents,
                        void *eventPaths, const FSEventStreamEventFlags eventFlags[], const FSEventStreamEventId eventIds[])
 {
-    // TODO: char?
     char **paths = eventPaths;
     NSMutableArray *directories = [NSMutableArray array];
 
