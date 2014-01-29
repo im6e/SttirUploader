@@ -7,9 +7,9 @@
 
 #import "AppDelegate.h"
 #import "DirectoryObserver.h"
+#import "views/SttirMenu.h"
 
 @interface AppDelegate ()
-@property (weak) IBOutlet NSMenu *statusMenu;
 @end
 
 @implementation AppDelegate
@@ -28,7 +28,8 @@
     [_statusItem setHighlightMode:YES];
     [_statusItem setTitle:@"SU"];
     [_statusItem setImage:[NSImage imageNamed:@"StatusBarIconTemplate"]];
-    [_statusItem setMenu:self.statusMenu];
+    SttirMenu *_menu = [[SttirMenu alloc] init];
+    [_statusItem setMenu:_menu];
 }
 
 - (void)setUpDirectoryObserver:(NSString *)dirPath

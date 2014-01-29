@@ -13,7 +13,6 @@
 		0C918F1B1884F4F500672DA1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C918F1A1884F4F500672DA1 /* main.m */; };
 		0C918F1F1884F4F500672DA1 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 0C918F1D1884F4F500672DA1 /* Credits.rtf */; };
 		0C918F221884F4F500672DA1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C918F211884F4F500672DA1 /* AppDelegate.m */; };
-		0C918F251884F4F500672DA1 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0C918F231884F4F500672DA1 /* MainMenu.xib */; };
 		0C918F281884F4F500672DA1 /* SttirUploader.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0C918F261884F4F500672DA1 /* SttirUploader.xcdatamodeld */; };
 		0C918F2A1884F4F500672DA1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C918F291884F4F500672DA1 /* Images.xcassets */; };
 		0C918F311884F4F500672DA1 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C918F301884F4F500672DA1 /* XCTest.framework */; };
@@ -25,6 +24,7 @@
 		477F851918963B6300FF08B1 /* StatusBarIconTemplate.png in Resources */ = {isa = PBXBuildFile; fileRef = 477F851818963B6300FF08B1 /* StatusBarIconTemplate.png */; };
 		477F851C18965E9F00FF08B1 /* FileDetectHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 477F851B18965E9F00FF08B1 /* FileDetectHelper.m */; };
 		477F8520189740DD00FF08B1 /* FileUploadHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 477F851F189740DD00FF08B1 /* FileUploadHelper.m */; };
+		47BDA7B218991BDB00E15B46 /* SttirMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 47BDA7B118991BDB00E15B46 /* SttirMenu.m */; };
 		E479F7BE1885998D00FBAE1B /* ProjectUploader.m in Sources */ = {isa = PBXBuildFile; fileRef = E479F7BD1885998D00FBAE1B /* ProjectUploader.m */; };
 /* End PBXBuildFile section */
 
@@ -51,7 +51,6 @@
 		0C918F1E1884F4F500672DA1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
 		0C918F201884F4F500672DA1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0C918F211884F4F500672DA1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		0C918F241884F4F500672DA1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		0C918F271884F4F500672DA1 /* SttirUploader.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SttirUploader.xcdatamodel; sourceTree = "<group>"; };
 		0C918F291884F4F500672DA1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		0C918F2F1884F4F500672DA1 /* SttirUploaderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SttirUploaderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -68,6 +67,8 @@
 		477F851B18965E9F00FF08B1 /* FileDetectHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FileDetectHelper.m; path = helpers/FileDetectHelper.m; sourceTree = "<group>"; };
 		477F851E189740DD00FF08B1 /* FileUploadHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FileUploadHelper.h; path = helpers/FileUploadHelper.h; sourceTree = "<group>"; };
 		477F851F189740DD00FF08B1 /* FileUploadHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FileUploadHelper.m; path = helpers/FileUploadHelper.m; sourceTree = "<group>"; };
+		47BDA7B018991BDB00E15B46 /* SttirMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SttirMenu.h; path = views/SttirMenu.h; sourceTree = "<group>"; };
+		47BDA7B118991BDB00E15B46 /* SttirMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SttirMenu.m; path = views/SttirMenu.m; sourceTree = "<group>"; };
 		CF452F713E124676B35F89D0 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 		E479F7BC1885998D00FBAE1B /* ProjectUploader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProjectUploader.h; sourceTree = "<group>"; };
 		E479F7BD1885998D00FBAE1B /* ProjectUploader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProjectUploader.m; sourceTree = "<group>"; };
@@ -141,6 +142,7 @@
 		0C918F141884F4F500672DA1 /* SttirUploader */ = {
 			isa = PBXGroup;
 			children = (
+				47BDA7AD18990B1200E15B46 /* views */,
 				477F851D18965EB000FF08B1 /* helpers */,
 				0C918F201884F4F500672DA1 /* AppDelegate.h */,
 				0C918F211884F4F500672DA1 /* AppDelegate.m */,
@@ -148,7 +150,6 @@
 				0C918F4B188502ED00672DA1 /* DirectoryObserver.m */,
 				E479F7BC1885998D00FBAE1B /* ProjectUploader.h */,
 				E479F7BD1885998D00FBAE1B /* ProjectUploader.m */,
-				0C918F231884F4F500672DA1 /* MainMenu.xib */,
 				0C918F291884F4F500672DA1 /* Images.xcassets */,
 				0C918F261884F4F500672DA1 /* SttirUploader.xcdatamodeld */,
 				0C918F151884F4F500672DA1 /* Supporting Files */,
@@ -204,6 +205,15 @@
 				477F851F189740DD00FF08B1 /* FileUploadHelper.m */,
 			);
 			name = helpers;
+			sourceTree = "<group>";
+		};
+		47BDA7AD18990B1200E15B46 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				47BDA7B018991BDB00E15B46 /* SttirMenu.h */,
+				47BDA7B118991BDB00E15B46 /* SttirMenu.m */,
+			);
+			name = views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -288,7 +298,6 @@
 				0C918F2A1884F4F500672DA1 /* Images.xcassets in Resources */,
 				477F851918963B6300FF08B1 /* StatusBarIconTemplate.png in Resources */,
 				0C918F1F1884F4F500672DA1 /* Credits.rtf in Resources */,
-				0C918F251884F4F500672DA1 /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,6 +350,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0C918F4C188502ED00672DA1 /* DirectoryObserver.m in Sources */,
+				47BDA7B218991BDB00E15B46 /* SttirMenu.m in Sources */,
 				477F8520189740DD00FF08B1 /* FileUploadHelper.m in Sources */,
 				0C918F221884F4F500672DA1 /* AppDelegate.m in Sources */,
 				477F851C18965E9F00FF08B1 /* FileDetectHelper.m in Sources */,
@@ -383,14 +393,6 @@
 				0C918F1E1884F4F500672DA1 /* en */,
 			);
 			name = Credits.rtf;
-			sourceTree = "<group>";
-		};
-		0C918F231884F4F500672DA1 /* MainMenu.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0C918F241884F4F500672DA1 /* Base */,
-			);
-			name = MainMenu.xib;
 			sourceTree = "<group>";
 		};
 		0C918F381884F4F500672DA1 /* InfoPlist.strings */ = {
