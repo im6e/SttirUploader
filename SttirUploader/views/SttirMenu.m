@@ -7,12 +7,13 @@
 //
 
 #import "SttirMenu.h"
-
-
+#import "PreferencesWindowController.h"
 
 @implementation SttirMenu {
     NSMenuItem *_quit;
     NSMenuItem *_preferences;
+
+    IBOutlet NSWindow *prefWindow;
 }
 
 
@@ -31,6 +32,9 @@
 
 - (void)pushedPreferences:(id)item {
     NSLog(@"item: %@", item);
+    PreferencesWindowController *prefeWindow = [[PreferencesWindowController alloc] init];
+    [prefeWindow showWindow:nil];
+    [[prefeWindow window] makeMainWindow];
 }
 
 @end

@@ -21,10 +21,14 @@
 		0C918F3C1884F4F500672DA1 /* SttirUploaderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C918F3B1884F4F500672DA1 /* SttirUploaderTests.m */; };
 		0C918F491885017800672DA1 /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C918F481885017800672DA1 /* CoreServices.framework */; };
 		0C918F4C188502ED00672DA1 /* DirectoryObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C918F4B188502ED00672DA1 /* DirectoryObserver.m */; };
-		477F851918963B6300FF08B1 /* StatusBarIconTemplate.png in Resources */ = {isa = PBXBuildFile; fileRef = 477F851818963B6300FF08B1 /* StatusBarIconTemplate.png */; };
 		477F851C18965E9F00FF08B1 /* FileDetectHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 477F851B18965E9F00FF08B1 /* FileDetectHelper.m */; };
 		477F8520189740DD00FF08B1 /* FileUploadHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 477F851F189740DD00FF08B1 /* FileUploadHelper.m */; };
 		47BDA7B218991BDB00E15B46 /* SttirMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 47BDA7B118991BDB00E15B46 /* SttirMenu.m */; };
+		47BDA7B7189928A400E15B46 /* PreferencesWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47BDA7B6189928A400E15B46 /* PreferencesWindowController.m */; };
+		47BDA7BA18992A6000E15B46 /* PreferenceWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 47BDA7B918992A6000E15B46 /* PreferenceWindow.m */; };
+		47BDA7BC18992C8B00E15B46 /* PreferenceWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 47BDA7BB18992C8B00E15B46 /* PreferenceWindow.xib */; };
+		47BDA7C01899EB0C00E15B46 /* PreferenceWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47BDA7BE1899EB0C00E15B46 /* PreferenceWindowController.m */; };
+		47BDA7C11899EB0C00E15B46 /* PreferenceWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 47BDA7BF1899EB0C00E15B46 /* PreferenceWindowController.xib */; };
 		E479F7BE1885998D00FBAE1B /* ProjectUploader.m in Sources */ = {isa = PBXBuildFile; fileRef = E479F7BD1885998D00FBAE1B /* ProjectUploader.m */; };
 /* End PBXBuildFile section */
 
@@ -62,13 +66,20 @@
 		0C918F4A188502ED00672DA1 /* DirectoryObserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DirectoryObserver.h; sourceTree = "<group>"; };
 		0C918F4B188502ED00672DA1 /* DirectoryObserver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DirectoryObserver.m; sourceTree = "<group>"; };
 		38B2802C24964900B441ED5F /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		477F851818963B6300FF08B1 /* StatusBarIconTemplate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = StatusBarIconTemplate.png; sourceTree = "<group>"; };
 		477F851A18965E9F00FF08B1 /* FileDetectHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FileDetectHelper.h; path = helpers/FileDetectHelper.h; sourceTree = "<group>"; };
 		477F851B18965E9F00FF08B1 /* FileDetectHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FileDetectHelper.m; path = helpers/FileDetectHelper.m; sourceTree = "<group>"; };
 		477F851E189740DD00FF08B1 /* FileUploadHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FileUploadHelper.h; path = helpers/FileUploadHelper.h; sourceTree = "<group>"; };
 		477F851F189740DD00FF08B1 /* FileUploadHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FileUploadHelper.m; path = helpers/FileUploadHelper.m; sourceTree = "<group>"; };
 		47BDA7B018991BDB00E15B46 /* SttirMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SttirMenu.h; path = views/SttirMenu.h; sourceTree = "<group>"; };
 		47BDA7B118991BDB00E15B46 /* SttirMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SttirMenu.m; path = views/SttirMenu.m; sourceTree = "<group>"; };
+		47BDA7B5189928A400E15B46 /* PreferencesWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PreferencesWindowController.h; path = views/PreferencesWindowController.h; sourceTree = "<group>"; };
+		47BDA7B6189928A400E15B46 /* PreferencesWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PreferencesWindowController.m; path = views/PreferencesWindowController.m; sourceTree = "<group>"; };
+		47BDA7B818992A6000E15B46 /* PreferenceWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PreferenceWindow.h; path = views/PreferenceWindow.h; sourceTree = "<group>"; };
+		47BDA7B918992A6000E15B46 /* PreferenceWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PreferenceWindow.m; path = views/PreferenceWindow.m; sourceTree = "<group>"; };
+		47BDA7BB18992C8B00E15B46 /* PreferenceWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PreferenceWindow.xib; sourceTree = "<group>"; };
+		47BDA7BD1899EB0C00E15B46 /* PreferenceWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PreferenceWindowController.h; path = views/PreferenceWindowController.h; sourceTree = "<group>"; };
+		47BDA7BE1899EB0C00E15B46 /* PreferenceWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PreferenceWindowController.m; path = views/PreferenceWindowController.m; sourceTree = "<group>"; };
+		47BDA7BF1899EB0C00E15B46 /* PreferenceWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PreferenceWindowController.xib; path = views/PreferenceWindowController.xib; sourceTree = "<group>"; };
 		CF452F713E124676B35F89D0 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 		E479F7BC1885998D00FBAE1B /* ProjectUploader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProjectUploader.h; sourceTree = "<group>"; };
 		E479F7BD1885998D00FBAE1B /* ProjectUploader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProjectUploader.m; sourceTree = "<group>"; };
@@ -191,7 +202,6 @@
 		477F851718963B5500FF08B1 /* img */ = {
 			isa = PBXGroup;
 			children = (
-				477F851818963B6300FF08B1 /* StatusBarIconTemplate.png */,
 			);
 			name = img;
 			sourceTree = "<group>";
@@ -212,6 +222,14 @@
 			children = (
 				47BDA7B018991BDB00E15B46 /* SttirMenu.h */,
 				47BDA7B118991BDB00E15B46 /* SttirMenu.m */,
+				47BDA7B5189928A400E15B46 /* PreferencesWindowController.h */,
+				47BDA7B6189928A400E15B46 /* PreferencesWindowController.m */,
+				47BDA7B818992A6000E15B46 /* PreferenceWindow.h */,
+				47BDA7B918992A6000E15B46 /* PreferenceWindow.m */,
+				47BDA7BB18992C8B00E15B46 /* PreferenceWindow.xib */,
+				47BDA7BD1899EB0C00E15B46 /* PreferenceWindowController.h */,
+				47BDA7BE1899EB0C00E15B46 /* PreferenceWindowController.m */,
+				47BDA7BF1899EB0C00E15B46 /* PreferenceWindowController.xib */,
 			);
 			name = views;
 			sourceTree = "<group>";
@@ -295,8 +313,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				0C918F191884F4F500672DA1 /* InfoPlist.strings in Resources */,
+				47BDA7BC18992C8B00E15B46 /* PreferenceWindow.xib in Resources */,
+				47BDA7C11899EB0C00E15B46 /* PreferenceWindowController.xib in Resources */,
 				0C918F2A1884F4F500672DA1 /* Images.xcassets in Resources */,
-				477F851918963B6300FF08B1 /* StatusBarIconTemplate.png in Resources */,
 				0C918F1F1884F4F500672DA1 /* Credits.rtf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -353,10 +372,13 @@
 				47BDA7B218991BDB00E15B46 /* SttirMenu.m in Sources */,
 				477F8520189740DD00FF08B1 /* FileUploadHelper.m in Sources */,
 				0C918F221884F4F500672DA1 /* AppDelegate.m in Sources */,
+				47BDA7BA18992A6000E15B46 /* PreferenceWindow.m in Sources */,
 				477F851C18965E9F00FF08B1 /* FileDetectHelper.m in Sources */,
 				0C918F281884F4F500672DA1 /* SttirUploader.xcdatamodeld in Sources */,
 				E479F7BE1885998D00FBAE1B /* ProjectUploader.m in Sources */,
+				47BDA7B7189928A400E15B46 /* PreferencesWindowController.m in Sources */,
 				0C918F1B1884F4F500672DA1 /* main.m in Sources */,
+				47BDA7C01899EB0C00E15B46 /* PreferenceWindowController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
